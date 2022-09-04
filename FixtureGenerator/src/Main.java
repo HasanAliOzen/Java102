@@ -13,11 +13,10 @@ public class Main {
         teams.add("Fenerbahçe");
         teams.add("Galatasaray");
         teams.add("Trabzonspor");
+        teams.add("Boluspor");
 
 
-        for (String team : teams) {
-            System.out.println(team);
-        }
+        fixtureGenerator.generateFixture();
 
 
 
